@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+    
+    header h1 {
+        font-size: 3em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+    
+    nav {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    nav a {
+        margin: 5px;
+        padding: 5px;
+    }   
+    
+    div#acesso > h2 {
+        padding-bottom: 10px;
+     }
+
+    div#acesso {
+        padding: 5px;
+    }
+
+    div#acesso > form > input{
+        font-size: 1em;
+        width: 250px;
+    }
+    
+}

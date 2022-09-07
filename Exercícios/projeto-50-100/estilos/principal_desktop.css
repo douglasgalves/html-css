@@ -43,12 +43,11 @@ nav {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    
 }
 
 nav a {
-    margin: 5px;
-    padding: 5px;
+    margin: 15px;
+    padding: 8px;
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -59,7 +58,7 @@ nav a:hover {
     background-color: var(--cor05);
     border-radius: 5px;
     color: black;
-    font-size: 1.1em;
+    transition: .4s;
 }
 
 main {
@@ -76,8 +75,10 @@ div {
     text-align: center;
     
 }
+
 div#acesso {
     margin: auto;
+    margin-bottom: 10px;
     padding: 60px;
     padding-top: 20px;
     color: white;
@@ -99,7 +100,7 @@ div#acesso > form > input{
     font-size: 1.2em;
     margin: 10px;
     height: 30px;
-    width: 300px;
+    width: 350px;
     border-radius: 5px;
 }
 
@@ -116,4 +117,20 @@ div#acesso > form > input#entrar:hover {
     border-radius: 5px;
     color: black;
     font-size: 1.1em;
+}
+
+div#rec_senha {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+main a {
+    color: white;
+    margin: 40px;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
 }
